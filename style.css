@@ -1,0 +1,108 @@
+  #seccion1 {
+      background-color: black;
+      color: bisque;
+      font-size: 16px;
+
+  }
+
+  .seccion2 {
+      background-color: rgb(11);
+      color: rgb(179, 39, 39);
+  }
+
+  p| {
+      font-size: 16px;
+  }
+  /* Alineacion de textos */
+  #articulo1{
+    text-align: center;
+    /* puede tener los siguientes
+    auto
+    left, right, center
+    justify
+    Tambien existen ostros atributos para alinear
+    - text-align
+    - text-align-last
+    - vertical-align
+    - direction
+    - unicode-bidi*/
+  }
+
+  /* Decoraciones de tecto */
+  #articulo1Titulo{
+  /*
+  - text-decoration-line
+  - text-decoration-color
+  - text-decoration-style
+  - text-decoration- thickness
+  */
+  text-decoration-line: underline;
+  /* underline ovetime line-thorough */
+  text-decoration-color: red;
+  text-decoration-style: solid;
+  text-decoration-thickness: 5px;
+  }
+  #articulo1Detalle{
+    text-decoration: underline wavy rgb(180,64,64) 10%;
+  /*font-style:oblique;*/
+    font-weight: lighter;
+  }
+  /*Transformaciones de texto*/
+  #articulo2Detalle{
+    text-transform: uppercase;
+    /* none, lowcase, uppercase, capitalize */
+    /*font-style: italic;*/
+    font-weight: bold;
+  }
+  /* ESPACIADO DE TEXTO */
+  #articulo3Detalle{
+    text-indent: 50px;
+    letter-spacing: 2px;
+    line-height: 2.0;
+    /*white-space: pre-wrap;*/
+    font-weight: 200; /* 400 es el normal y 900 es el bold*/
+  }
+  /* SOMBRAS EN LOS TEXTRO */
+  #articulo2Titulo{
+    color: rgb(234, 44, 55);
+    text-shadow: 3px 3px 5px rgb(169, 44, 215);
+    letter-spacing: 10px;
+    /* Fuentes en css */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /*
+    font-size (xx-small, x-samll, small, medium, large, x-large, xx-large
+    se puede especificar los tamaños en:
+     px, em, rem, %, smaller and larger;
+     */
+     font-size: 10vw; /*1m = 16px & 1rem = 16px*/
+
+  }
+
+  #articulosSeccion{
+    border: solid 1px black;
+    padding: 10px;
+    background-color: cornflowerblue;
+  }
+#articulo, #articulo2, #articulo3
+{
+    border: solid 1px black;
+    margin: 10px;
+}
+#articulo1{
+    background-color: bisque;
+    border-left: inset 30x blue;
+    margin: 10px;
+}
+#articulo2
+{
+    background-color: rgb(140, 69, 191);
+    padding: 10px;
+    border-top: 10px black outset;
+    margin:10px,
+}
+#articulo3
+{
+    background-color: khaki;
+    padding: 10px;
+    border-bottom: dashed 10 px red;
+}
