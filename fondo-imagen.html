@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagen de fondo</title>
+    <style>
+        .seccion1{
+            height: 700px;
+            /* background-color: bisque; */
+            border: solid 1px black;
+            margin: 10px;
+            background-image: url(imagen/descarga.webp);
+            background-size: 300px 150px; /* auto, contain, cover, 100ppx x 100px*/
+            background-repeat: space;
+        }
+        .seccion2{
+            height: 700px;
+           /* background-color: bisque;*/
+            border: solid 1px black;
+            margin: 10px;
+            background-image: url(imagen/descarga\ \(1\).webp);
+            background-size: contain;
+            background-attachment: fixed;
+        }
+        .seccion3{
+            height: 1920px;
+            background-color: bisque;
+            border: solid 1px black;
+            margin: 10px;
+            /* color image poaition size repeat attachment */
+            background: #fff url(imagen/fondo.webp) center right no-repeat fixed;
+            /* background-image: url(imagen/fondo.webp);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-size: 500px 350px;
+            background-position: center right ;
+            background-attachment: fixed; */
+        }
+        .seccion4{
+         height: 900px;
+         border: solid 1px black;
+         margin: 10px;
+         background-image: linear-gradient(215deg, rgb(211, 52, 52), yellow);
+
+        }
+        p{
+            color: white;
+            font-size: 36px;
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagenes de fondo con css</h1>
+    <section class="seccion1"> </section>
+    <section class="seccion2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sunt, quo doloribus aliquid laboriosam repellendus recusandae velit nostrum dicta nesciunt culpa expedita molestias dolorem sapiente dolores enim ad. Placeat, explicabo.</p>
+        <p> Hola Hola Soy un P en linea </p>
+    </section>
+    <section class="seccion3"></section>
+    <section class="seccion4"></section>
+</body>
+</html>
